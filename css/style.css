@@ -1,0 +1,77 @@
+body,
+.container {
+  background-color: #24353f;
+}
+
+.form-control {
+  background-color: transparent !important;
+  color: white !important;
+  
+  box-shadow: none !important;
+}
+.form-control::placeholder {
+    color: rgb(141, 141, 141) !important;
+
+}
+.container{
+    box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.7) !important;
+}
+h1{
+    color: #17a2a8;
+}
+
+
+.welcome-nav{
+    box-shadow: 0px 0px 50px 2px rgba(0, 0, 0, 0.349) !important;
+}
+
+.wel-h2{
+    font-size: 24px;
+}
+
+.h-trans{
+    color:transparent;
+
+}
+.h-white{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.h-green{
+    color: rgb(3, 150, 3);
+    font-size: 18px;
+}
+
+.h-red{
+    color:rgb(207, 10, 10);
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px ) and (min-width:899px) {
+   
+    .container{
+        width: 80% !important;
+        margin: 0; 
+    }
+}
+@media screen and (max-width:900px) {
+   
+    .container{
+        width: 95% !important;
+
+    }
+
+}
